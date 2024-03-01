@@ -1,0 +1,81 @@
+:root {
+  --color-Cyan: #26baa4;
+  --color-blue: #6173ff;
+  --color-head: #4c545d;
+  --color-text: #9fabb2;
+}
+
+/**********************/
+/* BELOW 944px (Tablets)*/
+/**********************/
+
+@media (max-width: 944px) {
+  html {
+    font-size: 50%;
+  }
+
+  .sponsor-logo {
+    max-width: 70%;
+  }
+
+  .footer-links {
+    margin-right: 0;
+  }
+}
+
+/**********************/
+/* BELOW 600px (Smaller Tablets and Phones)*/
+/**********************/
+
+@media (max-width: 600px) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .feature-box {
+    flex-direction: column;
+  }
+
+  .feature-text-box {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .tools-content {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-box {
+    margin-bottom: 3rem;
+  }
+
+  .logos {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .sponsor-logo {
+    max-width: 100%;
+  }
+
+  .footer-box {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    margin-right: 0;
+  }
+
+  .footer-link {
+    margin-bottom: 2rem;
+  }
+}
